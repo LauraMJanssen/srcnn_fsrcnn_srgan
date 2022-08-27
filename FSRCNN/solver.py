@@ -26,7 +26,7 @@ class FSRCNNTrainer(object):
     def build_model(self):
         self.model = Net(num_channels=1, upscale_factor=self.upscale_factor).to(self.device)
         self.model.weight_init(mean=0.0, std=0.2)
-        self.model=(torch.load("/content/FSRCNN-x4.pt"))
+        #self.model = torch.load("/pretrainedModels/fsrcnn_x4.pt")
         self.criterion = torch.nn.MSELoss()
         torch.manual_seed(self.seed)
 
