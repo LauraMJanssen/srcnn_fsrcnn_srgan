@@ -28,7 +28,7 @@ class SRCNNTrainer(object):
     def build_model(self):
         self.model = Net(num_channels=1, base_filter=64, upscale_factor=self.upscale_factor).to(self.device)
         self.model.weight_init(mean=0.0, std=0.01)
-        #self.model.state_dict(torch.load(""/pretrainedModels/srcnn_x4.pth")"))
+        #self.model.state_dict(torch.load("/pretrainedModels/srcnn_x4.pth"))
         self.criterion = torch.nn.MSELoss()
         torch.manual_seed(self.seed)
 
