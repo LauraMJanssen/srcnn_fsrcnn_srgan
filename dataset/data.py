@@ -52,7 +52,7 @@ def target_transform(crop_size):
 
 def get_training_set(upscale_factor):
     #root_dir = download_bsd300()
-    train_dir = "/content/drive/MyDrive/MA/IVUSImages_PNG_Train2"
+    train_dir = "/content/drive/MyDrive/IVUSImages/HR_Train"
     crop_size = calculate_valid_crop_size(512, upscale_factor)
 
     return DatasetFromFolder(train_dir,
@@ -62,7 +62,7 @@ def get_training_set(upscale_factor):
 
 def get_test_set(upscale_factor):
     #root_dir = download_bsd300()
-    test_dir = "/content/drive/MyDrive/MA/IVUSImages_PNG_Valid2"
+    test_dir = "/content/drive/MyDrive/IVUSImages/HR_Valid"
     crop_size = calculate_valid_crop_size(512, upscale_factor)
 
     return DatasetFromFolder(test_dir,
