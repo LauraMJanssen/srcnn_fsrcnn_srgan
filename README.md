@@ -29,7 +29,7 @@ Based on the repository by [Zijin Luo](https://github.com/soapisnotfat/super-res
 
 
 ## File Structure
-- **USRNet.ipynb**: Google Colaboratory execution file
+- **SRCNN_FSRCNN_SRGAN.ipynb**: Google Colaboratory execution file
 - **main.py**: training function
 - **super_resolve.py**: testing function
 - **SRCNN**: SRCNN model
