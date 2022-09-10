@@ -38,6 +38,6 @@ Based on the repository by [Zijin Luo](https://github.com/soapisnotfat/super-res
 - **dataset**: functions to prepare the dataset
 - **SRImages**: some example images generated with the SRCNN/FSRCNN/SRGAN models and LR input images
 - **trainedModels**: fully trained models of SRCNN/FSRCNN/SRGAN ('bare' & TL)
-- **pretrainedModels**: models, retrained via transfer learning
+- **pretrainedModels**: pre-trained models utilized for transfer learning
 
 
