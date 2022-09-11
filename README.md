@@ -32,6 +32,7 @@ Based on the repository by [Zijin Luo](https://github.com/soapisnotfat/super-res
 - **SRCNN_FSRCNN_SRGAN.ipynb**: Google Colaboratory execution file
 - **main.py**: training function
 - **super_resolve.py**: testing function
+- **progress_bar-py**: helper function
 - **SRCNN**: SRCNN model
 - **FSRCNN**: FSRCNN model
 - **SRGAN**: SRGAN model
